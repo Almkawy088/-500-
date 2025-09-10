@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E8F0FE; /* لون أزرق فاتح جدًا للخلفية، هادئ ومريح */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    direction: rtl;
+}
+
+.login-container {
+    background-color: #FFFFFF; /* لون أبيض نقي للفورم */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* ظل أعمق قليلًا ليعطي إحساسًا بالعمق */
+    text-align: center;
+    width: 350px;
+}
+
+h2 {
+    color: #333333; /* لون رمادي داكن للعناوين */
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.google-btn {
+    background-color: #4285F4; /* لون جوجل الأزرق المعروف */
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.google-btn:hover {
+    background-color: #357AE8; /* لون أزرق أغمق قليلًا عند التفاعل */
+    transform: translateY(-2px); /* إضافة تأثير بسيط عند التمرير بالماوس */
+}
+
+.google-btn i {
+    font-size: 20px;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #888888; /* لون رمادي متوسط للنص الفاصل */
+    margin: 20px 0;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #CCCCCC; /* لون رمادي فاتح للخط الفاصل */
+}
+
+.or-divider span {
+    padding: 0 10px;
+}
+
